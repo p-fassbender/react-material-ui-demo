@@ -1,6 +1,7 @@
 import './App.css'
 import { MuiAccordion } from './components/MuiAccordion'
 import { MuiAutocomplete } from './components/MuiAutocomplete'
+import { MuiBottomNavigation } from './components/MuiBottomNavigation'
 import { MuiBreadcrumbs } from './components/MuiBreadcrumbs'
 import { MuiButton } from './components/MuiButton'
 import { MuiCard } from './components/MuiCard'
@@ -56,7 +57,9 @@ function App() {
 
             {/* <MuiDrawer /> */}
 
-            <MuiSpeedDial />
+            {/* <MuiSpeedDial /> */}
+
+            <MuiBottomNavigation />
         </>
     )
 }
