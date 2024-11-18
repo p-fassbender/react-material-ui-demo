@@ -2,6 +2,7 @@ import './App.css'
 import { MuiAccordion } from './components/MuiAccordion'
 import { MuiAutocomplete } from './components/MuiAutocomplete'
 import { MuiAvatar } from './components/MuiAvatar'
+import { MuiBadge } from './components/MuiBadge'
 import { MuiBottomNavigation } from './components/MuiBottomNavigation'
 import { MuiBreadcrumbs } from './components/MuiBreadcrumbs'
 import { MuiButton } from './components/MuiButton'
@@ -62,7 +63,9 @@ function App() {
 
             {/* <MuiBottomNavigation /> */}
 
-            <MuiAvatar />
+            {/* <MuiAvatar /> */}
+
+            <MuiBadge />
         </>
     )
 }
