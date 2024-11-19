@@ -10,6 +10,7 @@ import './App.css'
 // import { MuiCard } from './components/MuiCard'
 // import { MuiCheckbox } from './components/MuiCheckbox'
 // import { MuiChip } from './components/MuiChip'
+import { MuiDialog } from './components/MuiDialog'
 // import { MuiDrawer } from './components/MuiDrawer'
 // import { MuiImageList } from './components/MuiImageList'
 // import { MuiLayout } from './components/MuiLayout'
@@ -19,7 +20,7 @@ import './App.css'
 // import { MuiRadioButton } from './components/MuiRadioButton'
 // import { MuiRating } from './components/MuiRating'
 // import { MuiSelect } from './components/MuiSelect'
-import { MuiSnackbar } from './components/MuiSnackbar'
+// import { MuiSnackbar } from './components/MuiSnackbar'
 // import { MuiSpeedDial } from './components/MuiSpeedDial'
 // import { MuiSwitch } from './components/MuiSwitch'
 // import { MuiTable } from './components/MuiTable'
@@ -83,7 +84,9 @@ function App() {
 
             {/* <MuiAlert /> */}
 
-            <MuiSnackbar />
+            {/* <MuiSnackbar /> */}
+
+            <MuiDialog />
         </>
     )
 }
