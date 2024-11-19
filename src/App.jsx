@@ -17,10 +17,11 @@ import './App.css'
 // import { MuiLink } from './components/MuiLink'
 // import { MuiList } from './components/MuiList'
 // import { MuiNavbar } from './components/MuiNavbar'
-import { MuiProgress } from './components/MuiProgress'
+// import { MuiProgress } from './components/MuiProgress'
 // import { MuiRadioButton } from './components/MuiRadioButton'
 // import { MuiRating } from './components/MuiRating'
 // import { MuiSelect } from './components/MuiSelect'
+import { MuiSkeleton } from './components/MuiSkeleton'
 // import { MuiSnackbar } from './components/MuiSnackbar'
 // import { MuiSpeedDial } from './components/MuiSpeedDial'
 // import { MuiSwitch } from './components/MuiSwitch'
@@ -89,7 +90,9 @@ function App() {
 
             {/* <MuiDialog /> */}
 
-            <MuiProgress />
+            {/* <MuiProgress /> */}
+
+            <MuiSkeleton />
         </>
     )
 }
