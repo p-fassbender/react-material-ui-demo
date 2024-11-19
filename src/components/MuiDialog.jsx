@@ -6,7 +6,7 @@ export const MuiDialog = () => {
 
     return (
         <>
-            <Button onClick={() => setOpen(true)}>
+            <Button variant='contained' onClick={() => setOpen(true)}>
                 Open Dialog
             </Button>
             <Dialog

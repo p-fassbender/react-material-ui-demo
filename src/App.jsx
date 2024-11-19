@@ -10,13 +10,14 @@ import './App.css'
 // import { MuiCard } from './components/MuiCard'
 // import { MuiCheckbox } from './components/MuiCheckbox'
 // import { MuiChip } from './components/MuiChip'
-import { MuiDialog } from './components/MuiDialog'
+// import { MuiDialog } from './components/MuiDialog'
 // import { MuiDrawer } from './components/MuiDrawer'
 // import { MuiImageList } from './components/MuiImageList'
 // import { MuiLayout } from './components/MuiLayout'
 // import { MuiLink } from './components/MuiLink'
 // import { MuiList } from './components/MuiList'
 // import { MuiNavbar } from './components/MuiNavbar'
+import { MuiProgress } from './components/MuiProgress'
 // import { MuiRadioButton } from './components/MuiRadioButton'
 // import { MuiRating } from './components/MuiRating'
 // import { MuiSelect } from './components/MuiSelect'
@@ -86,7 +87,9 @@ function App() {
 
             {/* <MuiSnackbar /> */}
 
-            <MuiDialog />
+            {/* <MuiDialog /> */}
+
+            <MuiProgress />
         </>
     )
 }
