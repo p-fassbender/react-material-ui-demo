@@ -1,6 +1,10 @@
 import './App.css'
+
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+
+import { createTheme, colors, ThemeProvider } from '@mui/material';
+
 // import { MuiAccordion } from './components/MuiAccordion'
 // import { MuiAlert } from './components/MuiAlert'
 // import { MuiAutocomplete } from './components/MuiAutocomplete'
@@ -38,8 +42,22 @@ import { MuiResponsiveness } from './components/MuiResponsiveness';
 // import { MuiTooltip } from './components/MuiTooltip'
 // import { MuiTypography } from './components/MuiTypography'
 
-function App() {
+const theme = createTheme({
+    status: {
+        danger: '#e53e3e'
+    },
+    palette: {
+        secondary: {
+            main: colors.orange[500]
+        },
+        neutral: {
+            main: colors.grey[500],
+            darker: colors.grey[700]
+        }
+    }
+})
 
+function App() {
     return (
         <>
             {/* <MuiTypography /> */}
@@ -114,7 +132,9 @@ function App() {
 
             {/* <MuiMasonry /> */}
 
-            <MuiResponsiveness />
+            <ThemeProvider theme={theme}>
+                <MuiResponsiveness />
+            </ThemeProvider>
         </>
     )
 }

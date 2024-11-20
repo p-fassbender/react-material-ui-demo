@@ -1,5 +1,23 @@
 import React from 'react'
-import { Box } from '@mui/material'
+import { Box, styled } from '@mui/material'
+
+const StyledBox = styled(Box)(({ theme }) => ({
+    height: '250px',
+    width: '250px',
+    backgroundColor: theme.status.danger
+}))
+
+const StyledBox2 = styled(Box)(({ theme }) => ({
+    height: '250px',
+    width: '250px',
+    backgroundColor: theme.palette.neutral.main
+}))
+
+const StyledBox3 = styled(Box)(({ theme }) => ({
+    height: '250px',
+    width: '250px',
+    backgroundColor: theme.palette.neutral.darker
+}))
 
 export const MuiResponsiveness = () => {
     return (
@@ -13,9 +31,13 @@ export const MuiResponsiveness = () => {
                     lg: 400,
                     xl: 500
                 },
-                bgcolor: 'primary.main'
+                bgcolor: 'secondary.dark'
             }}>
             </Box>
+
+            <StyledBox />
+            <StyledBox2 />
+            <StyledBox3 />
         </>
     )
 }
