@@ -1,7 +1,6 @@
 import './App.css'
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { MuiPicker } from './components/MuiPicker';
 // import { MuiAccordion } from './components/MuiAccordion'
 // import { MuiAlert } from './components/MuiAlert'
 // import { MuiAutocomplete } from './components/MuiAutocomplete'
@@ -20,11 +19,13 @@ import { MuiPicker } from './components/MuiPicker';
 // import { MuiLink } from './components/MuiLink'
 // import { MuiList } from './components/MuiList'
 // import { MuiLoadingButton } from './components/MuiLoadingButton'
-import { MuiMasonry } from './components/MuiMasonry';
+// import { MuiMasonry } from './components/MuiMasonry';
 // import { MuiNavbar } from './components/MuiNavbar'
+// import { MuiPicker } from './components/MuiPicker';
 // import { MuiProgress } from './components/MuiProgress'
 // import { MuiRadioButton } from './components/MuiRadioButton'
 // import { MuiRating } from './components/MuiRating'
+import { MuiResponsiveness } from './components/MuiResponsiveness';
 // import { MuiSelect } from './components/MuiSelect'
 // import { MuiSkeleton } from './components/MuiSkeleton'
 // import { MuiSnackbar } from './components/MuiSnackbar'
@@ -33,7 +34,7 @@ import { MuiMasonry } from './components/MuiMasonry';
 // import { MuiTable } from './components/MuiTable'
 // import { MuiTabs } from './components/MuiTabs';
 // import { MuiTextField } from './components/MuiTextField'
-import { MuiTimeline } from './components/MuiTimeline';
+// import { MuiTimeline } from './components/MuiTimeline';
 // import { MuiTooltip } from './components/MuiTooltip'
 // import { MuiTypography } from './components/MuiTypography'
 
@@ -111,7 +112,9 @@ function App() {
 
             {/* <MuiTimeline /> */}
 
-            <MuiMasonry />
+            {/* <MuiMasonry /> */}
+
+            <MuiResponsiveness />
         </>
     )
 }
