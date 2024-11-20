@@ -30,6 +30,7 @@ import { MuiPicker } from './components/MuiPicker';
 // import { MuiSpeedDial } from './components/MuiSpeedDial'
 // import { MuiSwitch } from './components/MuiSwitch'
 // import { MuiTable } from './components/MuiTable'
+import { MuiTabs } from './components/MuiTabs';
 // import { MuiTextField } from './components/MuiTextField'
 // import { MuiTooltip } from './components/MuiTooltip'
 // import { MuiTypography } from './components/MuiTypography'
@@ -99,9 +100,12 @@ function App() {
             {/* <MuiSkeleton /> */}
 
             {/* <MuiLoadingButton /> */}
-            <LocalizationProvider dateAdapter={AdapterDayjs}>
+
+            {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
                 <MuiPicker />
-            </LocalizationProvider>
+            </LocalizationProvider> */}
+
+            <MuiTabs />
         </>
     )
 }
