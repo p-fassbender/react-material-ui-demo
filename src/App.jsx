@@ -20,6 +20,7 @@ import { MuiPicker } from './components/MuiPicker';
 // import { MuiLink } from './components/MuiLink'
 // import { MuiList } from './components/MuiList'
 // import { MuiLoadingButton } from './components/MuiLoadingButton'
+import { MuiMasonry } from './components/MuiMasonry';
 // import { MuiNavbar } from './components/MuiNavbar'
 // import { MuiProgress } from './components/MuiProgress'
 // import { MuiRadioButton } from './components/MuiRadioButton'
@@ -108,7 +109,9 @@ function App() {
 
             {/* <MuiTabs /> */}
 
-            <MuiTimeline />
+            {/* <MuiTimeline /> */}
+
+            <MuiMasonry />
         </>
     )
 }
